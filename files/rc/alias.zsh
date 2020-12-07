@@ -1,0 +1,10 @@
+# Utility alias...
+alias ls="ls -lF"
+alias lsp="sudo lsof -i -P | grep \"LISTEN\""
+alias phm="php -r \"echo ini_get('memory_limit').PHP_EOL;\""
+alias whp="php --ini"
+alias les="less"
+alias ip="ipconfig getifaddr en0"
+alias adhost="addhosts.sh"
+alias shhost="les $HOME/sym/hosts"
+alias shalias="cat $HOME/zhc | grep alias | less"
