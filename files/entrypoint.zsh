@@ -13,6 +13,6 @@ then
   for i in "$RC_STORAGE"/*;
   do
     # shellcheck disable=SC1090
-    [[ ${i##*/} = *.rc.zsh ]] && [ -f "$i" ] && [ -r "$i" ] && . "$i"
+    [[ ${i##*/} = *.zsh ]] && [ -f "$i" ] && [ -r "$i" ] && . "$i"
   done
 fi
